@@ -24,7 +24,9 @@ namespace Caesar_cipher
                     Console.WriteLine(result);
 
                     Console.WriteLine("End? Y/N");
-                    var end = Console.ReadLine().ToUpper().Equals("Y") ? runTimes = 5 : runTimes++;
+                    var end = Console.ReadLine()
+                        .ToUpper()
+                        .Equals("Y") ? runTimes = 5 : runTimes++;
 
                     Console.ReadKey();
                     Console.Clear();
