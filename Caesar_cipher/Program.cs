@@ -16,7 +16,7 @@ namespace Caesar_cipher
                     Console.WriteLine("Podaj klucz.");
                     int key = int.Parse(Console.ReadLine());
 
-                    Console.WriteLine("Podaj tekst który chcesz zaszyfrować, dozwolone znaki A-Z");
+                    Console.WriteLine("Podaj tekst który chcesz zaszyfrować");
                     string text = Console.ReadLine().ToUpper();
 
                     var result = CaesarCipher.Encode(key, text);
